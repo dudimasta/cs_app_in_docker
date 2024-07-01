@@ -18,3 +18,10 @@
 	i. optionally (if did not tag before):
 		docker tag foofar_core_01-image fooBar_core_01containerreg.azurecr.io/foofar_core_01-image
 	i. docker push fooBar_core_01containerreg.azurecr.io/foofar_core_01-image
+
+#Usefull commands:
+- docker ps -a - lsit installed
+- docker start [id]
+- docker stop [id]
+- docker attach [id] - podłączenie pod stdio
+- docker exec -it [id] bash - połączenie do basha kontenera
