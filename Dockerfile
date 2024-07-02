@@ -2,7 +2,7 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build-env
 WORKDIR /FooBar_core_01
 
 
-# Copy everything
+# Copy everything to docker image
 COPY . ./
 # Restore as distinct layers
 RUN dotnet restore
