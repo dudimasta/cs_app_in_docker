@@ -20,7 +20,8 @@
 	i. docker push fooBar_core_01containerreg.azurecr.io/foofar_core_01-image
 
 #Usefull commands:
-- docker ps -a - lista zainstalowanych (uruchomionych i zatrzymanych)
+- docker images - lista zainstalowanych obrazów
+- docker ps -a - lista kontenerów zainstalowanych (uruchomionych i zatrzymanych)
 - docker start [id]
 - docker stop [id]
 - docker attach [id] - podłączenie pod stdio
