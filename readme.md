@@ -1,6 +1,6 @@
 ## Routines to run in a docker container
-1.If you try to run docker on a VM, then from host run:
-	i. Set-VMProcessor <VMName> -ExposeVirtualizationExtensions $true
+1. If you try to run docker on a VM, then from host run:
+	i. Set-VMProcessor <VMName> -ExposeVirtualizationExtensions $true 
 2. Restore packages:
 	i. dotnet build --no-cache
 1. Publish .NET app:
